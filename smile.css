@@ -1,0 +1,35 @@
+#face{
+    background-color: goldenrod;
+    width: 400px;
+    height: 400px;
+    margin: 300px auto;
+    border-radius: 50%;
+}
+
+.Eyes {
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    margin-right: 100px;
+}
+
+#lips {
+    background-color: rgba(255, 0, 0, 0.445);
+    width: 200px;
+    height: 50px;
+    position: relative;
+    top: 200px;
+    left: 100px;
+    border-radius: 0 0 40px 40px;
+}
+
+#face:hover {
+    box-shadow: 10px 10px 20px red;
+    border-radius: 50%;
+    transition: 0.6s;
+}
